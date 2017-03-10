@@ -19,7 +19,7 @@ public class Application extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String home() {
-      return "Welcome!!"
+      return "Welcome!!";
     }
 
     // Used when run as JAR
